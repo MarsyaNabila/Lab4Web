@@ -440,6 +440,10 @@ Hasil di browser menampilkan tampilan rapi: judul abu-abu di atas, menu navigasi
 
 # Membuat Tampilan Artikel 
 
+Kode ini menampilkan halaman artikel pada website. Struktur awalnya berisi elemen `<header>` dengan judul “Layout Sederhana”, lalu di bawahnya terdapat navigasi `<nav>` berisi tautan ke halaman lain seperti Home, About, dan Kontak, dengan “Artikel” sebagai halaman aktif. Bagian utama berada dalam `<section id="wrapper">` yang berisi dua artikel di dalam `<section id="main">`. Artikel pertama dan kedua ditulis menggunakan elemen `<article>` dengan gambar di kiri dan kanan yang diatur oleh CSS. Setiap artikel memiliki judul dan paragraf penjelasan tentang isi artikel.
+Di sisi kanan terdapat `<aside id="sidebar">` yang menampilkan widget berjudul “Artikel Lain”, berisi tautan tambahan seperti Tips Desain Web, Belajar CSS Layout, dan Responsive Design.
+Bagian akhir adalah `<footer>` yang berisi hak cipta situs. Saat dijalankan di browser, halaman ini menampilkan dua artikel dengan layout rapi, navigasi biru di bagian atas, sidebar di kanan, dan footer berwarna gelap di bawah, menciptakan tampilan layout sederhana dan terstruktur dengan baik.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -506,6 +510,168 @@ Hasil di browser menampilkan tampilan rapi: judul abu-abu di atas, menu navigasi
 ```
 
 <img width="974" height="760" alt="Screenshot 2025-10-16 182704" src="https://github.com/user-attachments/assets/c2aa94e6-8bcd-47b5-ba7a-223ffa9c6b5e" />
+
+# Membuat Tampilan Kontak 
+
+Oke, ini versi yang beda tapi tetap gaya penjelasannya sama panjang dan rapi ya👇
+
+Kode ini digunakan untuk membuat halaman “About” yang menampilkan informasi singkat tentang website. Bagian `<header>` menampilkan judul utama “Layout Sederhana”, sementara `<nav>` berisi menu navigasi ke halaman lain seperti Home, Artikel, About, dan Kontak, dengan menu About sebagai halaman aktif. Pada bagian `<section id="main">` terdapat `<div class="entry">` yang berisi gambar di bagian atas dan paragraf teks yang menjelaskan tujuan atau profil situs. Di sisi kanan halaman, terdapat `<aside id="sidebar">` yang menampilkan daftar tautan menuju artikel lain. Terakhir, bagian `<footer>` menampilkan teks hak cipta “© 2025 - Universitas Pelita Bangsa”. Semua elemen dikemas dalam `<div id="container">` agar tampilan lebih rapi dan terstruktur.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Kontak Kami</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Hubungi Kami</h2>
+            <form>
+                <label>Nama:</label><br>
+                <input type="text" name="nama" placeholder="Masukkan nama"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Masukkan email"><br><br>
+
+                <label>Pesan:</label><br>
+                <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="978" height="510" alt="Screenshot 2025-10-16 183355" src="https://github.com/user-attachments/assets/5bf280f5-7349-42e6-adbb-a7c7c12bc4b9" />
+
+PERTANYAAN DAN TUGAS
+
+<img width="411" height="123" alt="Screenshot 2025-10-16 184100" src="https://github.com/user-attachments/assets/0ddad2f5-8892-4ed7-abc6-a199375faf53" />
+
+1. Tambahkan Layout untuk menu About
+=> buat single layout yang berisi deskripsi, portfolio, dll
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Tentang Saya</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Deskripsi</h2>
+            <p>Hai perkenalkan nama saya Marsya Nabila Putri, saya mahasiswi Universitas Pelita Bangsa fakultas teknik program studi teknik informatika.</p>
+
+            <h2>Hobi saya</h2>
+            <ul>
+                <li>Menonton film</li>
+                <li>Bermain game</li>
+                <li>Menggambar</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="987" height="379" alt="Screenshot 2025-10-16 184359" src="https://github.com/user-attachments/assets/09f81d47-912d-4547-b531-7be0451852dd" />
+
+2. Tambahkan layout untuk menu Contact
+=> yang berisi form isian: nama, email, message, dll
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Kontak Saya dibawah ini</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Formulir Kontak</h2>
+            <form>
+                <label>Nama:</label><br>
+                <input type="text" name="nama" placeholder="Masukkan nama"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Masukkan email"><br><br>
+
+                <label>Pesan:</label><br>
+                <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="987" height="508" alt="Screenshot 2025-10-16 184704" src="https://github.com/user-attachments/assets/1eeb414e-edd6-4cbe-962f-2a112d516124" />
+
+
+
+
+
+
 
 
 
