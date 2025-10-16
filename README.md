@@ -10,7 +10,8 @@ Kelas: TI.24.A4
 Membuat dokumen HTML dengan nama file ```lab4_box.html```
 
 
-````<!DOCTYPE html>
+````html
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -22,4 +23,5 @@ Membuat dokumen HTML dengan nama file ```lab4_box.html```
 <h1>Box Element</h1>
 </header>
 </body>
-</html>````
+</html>
+```
