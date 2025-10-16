@@ -9,6 +9,8 @@ Kelas: TI.24.A4
 # Langkah-langkah Pratikum
 Membuat dokumen HTML dengan nama file ```lab4_box.html```
 
+Kode di atas merupakan struktur dasar dari sebuah halaman web HTML5. Baris `<!DOCTYPE html>` berfungsi untuk memberitahu browser bahwa dokumen ini menggunakan HTML5. Tag `<html lang="en">` adalah elemen utama yang membungkus seluruh isi halaman dan memiliki atribut `lang="en"` yang menandakan bahwa bahasa yang digunakan adalah bahasa Inggris. Bagian `<head>` berisi informasi tentang dokumen seperti `<meta charset="UTF-8">` untuk mengatur karakter agar semua huruf dan simbol dapat ditampilkan dengan benar, `<meta name="viewport" content="width=device-width, initial-scale=1.0">` agar tampilan halaman dapat menyesuaikan dengan ukuran layar perangkat, dan `<title>Box Element</title>` untuk menentukan judul halaman yang muncul di tab browser. Sementara itu, bagian `<body>` berisi konten utama yang terlihat di halaman web. Di dalamnya terdapat tag `<header>` yang digunakan sebagai bagian kepala halaman dan berisi elemen `<h1>Box Element</h1>` yang menampilkan judul utama halaman dengan teks “Box Element”. Jadi, secara keseluruhan kode ini menampilkan halaman web sederhana dengan judul besar “Box Element” di bagian atas dan sudah memiliki struktur HTML yang lengkap dan responsif.
+
 
 ````html
 <!DOCTYPE html>
