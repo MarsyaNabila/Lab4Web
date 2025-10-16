@@ -158,7 +158,9 @@ Kode di atas merupakan struktur dasar halaman web dengan layout sederhana menggu
 Kode CSS di atas digunakan untuk mengatur tampilan halaman web **Layout Sederhana** agar terlihat rapi dan seimbang. Pada bagian awal dilakukan **import font** dari Google Fonts (*Open Sans*) dan **reset CSS** untuk menghapus margin serta padding default semua elemen. Bagian **body** mengatur jenis huruf, ukuran, dan warna teks utama, sedangkan **#container** berfungsi sebagai wadah utama dengan lebar 980px dan bayangan lembut di sekelilingnya. Bagian **header** menampilkan judul dengan warna abu-abu, sementara **nav** digunakan sebagai menu navigasi berwarna biru dengan teks putih dan efek hover agar berubah warna menjadi lebih terang. Panel **#hero** berfungsi sebagai area pembuka atau banner dengan latar abu-abu muda, teks besar, dan tombol di bawahnya.
 Selanjutnya, **#wrapper** membungkus dua bagian utama, yaitu **#main** untuk konten utama dan **#sidebar** untuk area samping. Sidebar berisi **widget-box** yang menampilkan daftar link dan teks tambahan dengan desain sederhana dan warna biru pada judulnya. Kelas **.box** digunakan untuk membuat tiga kotak sejajar dengan gambar, teks, dan tombol, sedangkan **.image-circle** membuat gambar tampil bulat. Elemen **.entry** mengatur tampilan artikel yang berisi gambar di sisi kiri atau kanan dengan teks di sampingnya, dan **.divider** berfungsi sebagai garis pemisah antar bagian. Terakhir, **footer** diberi latar hitam dengan teks putih sebagai penutup halaman. Secara keseluruhan, CSS ini mengatur layout halaman agar tampil bersih, teratur, dan mudah dibaca.
 
-```html
+```css
+<h1>Hello</h1>
+
 /* import google font */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap'); 
