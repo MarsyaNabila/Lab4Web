@@ -46,3 +46,10 @@ Kode di atas merupakan struktur dasar dari sebuah halaman web HTML5. Baris `<!DO
 </body>
 </html>
 ````
+
+<img width="838" height="500" alt="gambar 1" src="https://github.com/user-attachments/assets/07cfc94d-d373-416e-a2a7-37921287f902" />
+
+<img width="1914" height="616" alt="gambar 2" src="https://github.com/user-attachments/assets/e315101f-7da9-4a44-8061-d15066eadde7" />
+
+
+
