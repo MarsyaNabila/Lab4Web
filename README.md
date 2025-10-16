@@ -11,7 +11,7 @@ Membuat dokumen HTML dengan nama file ```lab4_box.html```
 
 Kode di tersebut merupakan contoh penggunaan elemen box dengan CSS float. Pada bagian `<head>` terdapat pengaturan seperti `<meta charset="UTF-8">` untuk menentukan karakter, `<meta name="viewport">` agar tampilan responsif, dan `<title>Box Element Float</title>` sebagai judul halaman. Bagian `<style>` digunakan untuk mengatur tampilan kotak. Semua elemen `<div>` diberi properti `float: left` agar sejajar ke kiri, `padding: 10px` untuk memberi jarak dalam kotak, `color: white` untuk warna teks, `text-align: center` agar teks berada di tengah, dan `width: 100px` untuk menentukan lebar. Empat kotak dibuat dengan kelas berbeda: `.div1` berwarna merah, `.div2` kuning dengan teks hitam, `.div3` hijau, dan `.div4` biru. Khusus `.div4` ditambahkan `clear: left` dan `float: none` supaya posisinya berada di bawah tiga kotak sebelumnya. Di dalam `<body>` terdapat empat `<div>` dengan teks “Div 1” sampai “Div 4” yang menampilkan hasil pengaturan tersebut. Jadi, tampilan akhirnya menampilkan tiga kotak berwarna sejajar ke kiri dan satu kotak biru di baris bawah.
 
-```html
+```css
 <!DOCTYPE html>
 <html lang="en">
 <head>
