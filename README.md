@@ -568,7 +568,7 @@ Kode ini digunakan untuk membuat halaman “About” yang menampilkan informasi 
 
 <img width="411" height="123" alt="Screenshot 2025-10-16 184100" src="https://github.com/user-attachments/assets/0ddad2f5-8892-4ed7-abc6-a199375faf53" />
 
-# 1. Tambahkan Layout untuk menu About
+1. Tambahkan Layout untuk menu About
 => buat single layout yang berisi deskripsi, portfolio, dll
 
 ```html
@@ -615,7 +615,7 @@ Kode ini digunakan untuk membuat halaman “About” yang menampilkan informasi 
 
 <img width="987" height="379" alt="Screenshot 2025-10-16 184359" src="https://github.com/user-attachments/assets/09f81d47-912d-4547-b531-7be0451852dd" />
 
-# 2. Tambahkan layout untuk menu Contact
+2. Tambahkan layout untuk menu Contact
 => yang berisi form isian: nama, email, message, dll
 
 ```html
