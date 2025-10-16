@@ -387,6 +387,63 @@ box img {
 ![5](https://github.com/user-attachments/assets/1c8f8a7f-2cfe-4d7d-ba19-e78479554110)
 
 
+# Membuat Tampilan About
+
+Kode HTML pada gambar tersebut berfungsi untuk membuat halaman web **“Tentang Kami”** dengan struktur dasar HTML dan gaya dari file `style.css`.
+Bagian `<header>` menampilkan judul **"Tentang Kami"** di bagian atas halaman. Di bawahnya terdapat elemen `<nav>` yang berisi menu navigasi — **Home, About, Artikel,** dan **Kontak**, di mana tombol **About** tampak berwarna biru muda karena aktif. Bagian `<section id="main">` menampilkan isi utama yang berisi dua subjudul: **Deskripsi**, yang menjelaskan bahwa website ini dibuat untuk latihan layout HTML5 dan CSS Float, serta **Portfolio**, yang berisi daftar tiga proyek (Desain Web, Sistem Informasi Penjualan, dan Aplikasi Kalkulator).
+Terakhir, bagian `<footer>` menampilkan teks hak cipta **© 2025 - Universitas Pelita Bangsa** dengan latar belakang gelap di bagian bawah halaman.
+Hasil di browser menampilkan tampilan rapi: judul abu-abu di atas, menu navigasi biru, isi utama dengan teks dan daftar proyek di tengah, serta footer hitam di bagian bawah.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Tentang Kami</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Deskripsi</h2>
+            <p>Website ini dibuat sebagai latihan dasar layout menggunakan HTML5 dan CSS Float.</p>
+
+            <h2>Portfolio</h2>
+            <ul>
+                <li>Project 1 - Desain Web</li>
+                <li>Project 2 - Sistem Informasi Penjualan</li>
+                <li>Project 3 - Aplikasi kalkulator</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="977" height="369" alt="Screenshot 2025-10-16 182115" src="https://github.com/user-attachments/assets/c73769c0-9765-4dbe-a5c4-d30997b84c51" />
+
+# Membuat Tampilan Artikel 
+
+
+
+
+
 
 
 
