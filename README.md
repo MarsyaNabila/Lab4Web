@@ -30,10 +30,9 @@ Kode di atas merupakan struktur dasar dari sebuah halaman web HTML5. Baris `<!DO
         .div1 { background: red; }
         .div2 { background: yellow; color: black; }
         .div3 { background: green; }
-        .div4 {
-            background: blue;
-            clear: left;
-            float: none;
+        .div4 { background: blue;
+        clear: left;
+        float: none;
         }
     </style>
 </head>
