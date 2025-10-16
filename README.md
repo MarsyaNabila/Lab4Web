@@ -150,6 +150,13 @@ Kode di atas merupakan struktur dasar halaman web dengan layout sederhana menggu
 </html>
 ```
 
+<img width="1063" height="531" alt="gambar 3" src="https://github.com/user-attachments/assets/de651fe2-252d-4819-93bb-1b617e9ffbc7" />
+
+# CSS Style
+
+
+
+
 
 
 
