@@ -160,7 +160,6 @@ Kode CSS di atas digunakan untuk mengatur tampilan halaman web **Layout Sederhan
 Selanjutnya, **#wrapper** membungkus dua bagian utama, yaitu **#main** untuk konten utama dan **#sidebar** untuk area samping. Sidebar berisi **widget-box** yang menampilkan daftar link dan teks tambahan dengan desain sederhana dan warna biru pada judulnya. Kelas **.box** digunakan untuk membuat tiga kotak sejajar dengan gambar, teks, dan tombol, sedangkan **.image-circle** membuat gambar tampil bulat. Elemen **.entry** mengatur tampilan artikel yang berisi gambar di sisi kiri atau kanan dengan teks di sampingnya, dan **.divider** berfungsi sebagai garis pemisah antar bagian. Terakhir, **footer** diberi latar hitam dengan teks putih sebagai penutup halaman. Secara keseluruhan, CSS ini mengatur layout halaman agar tampil bersih, teratur, dan mudah dibaca.
 
 ```css
-body { color: red; }
 /* import google font */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap'); 
@@ -372,6 +371,28 @@ box img {
     float: right; 
 }
 ```
+
+<img width="1641" height="537" alt="gambar 4" src="https://github.com/user-attachments/assets/64e81b61-d80c-4c2f-946e-a3773ed6aa7e" />
+
+<img width="1919" height="517" alt="gambar 5" src="https://github.com/user-attachments/assets/fe7f86ca-3af3-474f-952b-7fd320d5e1ba" />
+
+<img width="1918" height="902" alt="gambar 6" src="https://github.com/user-attachments/assets/4e90a819-24f5-47b3-ac96-8cf156757b47" />
+
+<img width="1918" height="893" alt="gambar 7" src="https://github.com/user-attachments/assets/9bf119b1-d56e-41a3-a3a0-428b0c6f8155" />
+
+<img width="1916" height="388" alt="gambar 8" src="https://github.com/user-attachments/assets/f9d53e88-f4e4-4747-baa4-2240ca347618" />
+
+![WhatsApp Image 2025-10-16 at 17 57 46_65c86d21](https://github.com/user-attachments/assets/e6e770c7-cd40-4f9f-b95f-3a31b957fb1a)
+
+![5](https://github.com/user-attachments/assets/1c8f8a7f-2cfe-4d7d-ba19-e78479554110)
+
+
+
+
+
+
+
+
 
 
 
