@@ -9,8 +9,7 @@ Kelas: TI.24.A4
 # Langkah-langkah Pratikum
 Membuat dokumen HTML dengan nama file ```lab4_box.html```
 
-Kode di atas merupakan struktur dasar dari sebuah halaman web HTML5. Baris `<!DOCTYPE html>` berfungsi untuk memberitahu browser bahwa dokumen ini menggunakan HTML5. Tag `<html lang="en">` adalah elemen utama yang membungkus seluruh isi halaman dan memiliki atribut `lang="en"` yang menandakan bahwa bahasa yang digunakan adalah bahasa Inggris. Bagian `<head>` berisi informasi tentang dokumen seperti `<meta charset="UTF-8">` untuk mengatur karakter agar semua huruf dan simbol dapat ditampilkan dengan benar, `<meta name="viewport" content="width=device-width, initial-scale=1.0">` agar tampilan halaman dapat menyesuaikan dengan ukuran layar perangkat, dan `<title>Box Element</title>` untuk menentukan judul halaman yang muncul di tab browser. Sementara itu, bagian `<body>` berisi konten utama yang terlihat di halaman web. Di dalamnya terdapat tag `<header>` yang digunakan sebagai bagian kepala halaman dan berisi elemen `<h1>Box Element</h1>` yang menampilkan judul utama halaman dengan teks “Box Element”. Jadi, secara keseluruhan kode ini menampilkan halaman web sederhana dengan judul besar “Box Element” di bagian atas dan sudah memiliki struktur HTML yang lengkap dan responsif.
-
+Kode di tersebut merupakan contoh penggunaan elemen box dengan CSS float. Pada bagian `<head>` terdapat pengaturan seperti `<meta charset="UTF-8">` untuk menentukan karakter, `<meta name="viewport">` agar tampilan responsif, dan `<title>Box Element Float</title>` sebagai judul halaman. Bagian `<style>` digunakan untuk mengatur tampilan kotak. Semua elemen `<div>` diberi properti `float: left` agar sejajar ke kiri, `padding: 10px` untuk memberi jarak dalam kotak, `color: white` untuk warna teks, `text-align: center` agar teks berada di tengah, dan `width: 100px` untuk menentukan lebar. Empat kotak dibuat dengan kelas berbeda: `.div1` berwarna merah, `.div2` kuning dengan teks hitam, `.div3` hijau, dan `.div4` biru. Khusus `.div4` ditambahkan `clear: left` dan `float: none` supaya posisinya berada di bawah tiga kotak sebelumnya. Di dalam `<body>` terdapat empat `<div>` dengan teks “Div 1” sampai “Div 4” yang menampilkan hasil pengaturan tersebut. Jadi, tampilan akhirnya menampilkan tiga kotak berwarna sejajar ke kiri dan satu kotak biru di baris bawah.
 
 ````html
 <!DOCTYPE html>
@@ -50,6 +49,10 @@ Kode di atas merupakan struktur dasar dari sebuah halaman web HTML5. Baris `<!DO
 <img width="838" height="500" alt="gambar 1" src="https://github.com/user-attachments/assets/07cfc94d-d373-416e-a2a7-37921287f902" />
 
 <img width="1914" height="616" alt="gambar 2" src="https://github.com/user-attachments/assets/e315101f-7da9-4a44-8061-d15066eadde7" />
+
+# Membuat Layout Sederhana
+
+
 
 
 
