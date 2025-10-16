@@ -160,7 +160,7 @@ Kode CSS di atas digunakan untuk mengatur tampilan halaman web **Layout Sederhan
 Selanjutnya, **#wrapper** membungkus dua bagian utama, yaitu **#main** untuk konten utama dan **#sidebar** untuk area samping. Sidebar berisi **widget-box** yang menampilkan daftar link dan teks tambahan dengan desain sederhana dan warna biru pada judulnya. Kelas **.box** digunakan untuk membuat tiga kotak sejajar dengan gambar, teks, dan tombol, sedangkan **.image-circle** membuat gambar tampil bulat. Elemen **.entry** mengatur tampilan artikel yang berisi gambar di sisi kiri atau kanan dengan teks di sampingnya, dan **.divider** berfungsi sebagai garis pemisah antar bagian. Terakhir, **footer** diberi latar hitam dengan teks putih sebagai penutup halaman. Secara keseluruhan, CSS ini mengatur layout halaman agar tampil bersih, teratur, dan mudah dibaca.
 
 ```css
-<h1>Hello</h1>
+body { color: red; }
 /* import google font */ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap'); 
